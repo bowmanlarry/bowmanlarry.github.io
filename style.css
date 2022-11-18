@@ -1,13 +1,17 @@
 body {
-  background-color: Cyan;
+  background-color: cyan;
+  color: darkblue
+    
 }
-H1 {
-  color: Blue;
-  font-size: 36px;
-  font-family: Abril, Times New Roman
-<!DOCTYPE html>
-<html>
-<head>
+
+h1 {
+  text-shadow: 2px 2px;
+  text-align: center;
+  
+  
+}
+
+
 <style> 
 div {
   width: 100px;
@@ -16,6 +20,7 @@ div {
   animation-name: example;
   animation-duration: 4s;
 }
+
 @keyframes example {
   from {background-color: red;}
   to {background-color: yellow;}
@@ -23,6 +28,10 @@ div {
 </style>
 </head>
 <body>
+
+
 <div></div>
+
+
 </body>
 </html>
