@@ -1,37 +1,30 @@
 body {
-  background-color: cyan;
-  color: darkblue
+  background-color: Black;
+  background-image: url("https://hdblackwallpaper.com/wallpaper/2015/05/steelers-colors-black-and-gold-27-wide-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  color: white ;
+  
+  
+  
+  
     
 }
 
 h1 {
   text-shadow: 2px 2px;
   text-align: center;
+  font-weight: bold;
   
   
+  
 }
 
-
-<style> 
-div {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  animation-name: example;
-  animation-duration: 4s;
+h2 {
+  text-align: left;
+  font-size: 45px;
+  font-style: italic;
+  
 }
-
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-</style>
-</head>
-<body>
-
-
-<div></div>
-
-
-</body>
-</html>
